@@ -1,0 +1,48 @@
+n=int(input(Enter a number))
+while(n!=0)
+  remainder=n%10
+  num=reverse*10+rem
+  n=n/10
+  print(num)
+  ******************************
+ n=int(input(Enter a number))
+ temp=n
+ sum=0
+ while n>0:
+ rem=n%10
+ sum=sum+rem*rem*rem
+ n=n/10
+ if(sum==temp):
+  print("armstrong)
+ else:
+  print("not armstrong:")
+ ********************************
+ calucate the area of triangle,square,rectangle
+ a=int(input(Enter a length))
+ b=int(input(Enter a breath))
+ c=int(input(Enter a height))
+ print(area of triangle,"1/2*a*b)
+ d=int(input(Enter a length))
+ print(area of square,"l*l)
+ a=int(input(Enter a length))
+ b=int(input(Enter a breath))
+ print(area of rectangle,"l*b)
+ *********************************
+ swap 3 numbers
+ a=int(input(Enter a number))
+ b=int(input(Enter a number))
+ c=int(input(Enter a number))
+ if a>b:
+  a,b=b,a
+ if a>c:
+  a,c=c,a
+ if b>c:
+  b,c=c,b
+  print(a,b,c)
+  ***********************************
+ a=int(input(Enter a number))
+ for i in range(a):
+ a=b
+ b=c
+ c=a+b
+ 
